@@ -27,7 +27,7 @@
 
     $mail->isHTML(true);
     $mail->Subject = 'DEMO';
-    $mail->Body = 'Hi, My Name Nitin Jangir!';
+    $mail->Body = 'Hi, My Name is Nitin Jangir!';
     if ($mail->send()) {
         echo 'Demo email has been sent successfully!';
     } else {
